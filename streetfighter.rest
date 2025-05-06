@@ -1,8 +1,8 @@
 GET http://localhost:3000/usuarios
-
+###
 
 GET http://localhost:3000/usuarios/Ryu
-
+###
 
 POST http://localhost:3000/usuarios
 Content-Type: application/json
@@ -14,7 +14,7 @@ Content-Type: application/json
   "lugarProcedencia": "Estados Unidos"
 }
 
-
+###
 PUT http://localhost:3000/usuarios/Ken
 Content-Type: application/json
 
@@ -22,7 +22,7 @@ Content-Type: application/json
   "edad": 32,
   "lugarProcedencia": "EEUU"
 }
-
+###
 
 DELETE http://localhost:3000/usuarios/Ken
 

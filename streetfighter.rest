@@ -1,0 +1,29 @@
+GET http://localhost:3000/usuarios
+
+
+GET http://localhost:3000/usuarios/Ryu
+
+
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "id": 6,
+  "nombre": "Ken",
+  "edad": 31,
+  "lugarProcedencia": "Estados Unidos"
+}
+
+
+PUT http://localhost:3000/usuarios/Ken
+Content-Type: application/json
+
+{
+  "edad": 32,
+  "lugarProcedencia": "EEUU"
+}
+
+
+DELETE http://localhost:3000/usuarios/Ken
+
+
